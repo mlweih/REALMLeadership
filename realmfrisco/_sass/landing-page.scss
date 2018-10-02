@@ -1,3 +1,14 @@
+.mission{
+	text-align: center;
+	align-items: center;
+	min-height: 300px;
+	padding-top: 4em;
+	padding-bottom: 4em;
+	background-color: #ffffff;
+	max-width: 1050px;
+	margin: auto;
+}
+
 .hero {
 	color: #ffffff;
 	text-align: center;
@@ -41,6 +52,17 @@
 		position: absolute;
 		right: 0;
 	}
+}
+
+.minihero {
+	color: #ffffff;
+	text-align: center;
+	height: 30vh;
+	min-height: 220px;
+	background-color: #333;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
 }
 
 .image {
