@@ -34,10 +34,12 @@ bottom_image: https://unsplash.it/2000/1322?a=.png
 	<section class="info" id="learn-more">
 		<div class="container">
 			<div class="minihero" style="background-image: url({% include relative-src.html src=page.image %})">
-				<h3>What REALM offers</h3>
+				<div class="text-container">
+					<h3>What REALM offers</h3>
+				</div>
 			</div>
 		</div>
-		<div class="container flex">
+		<div class="container flex firstgroup">
 			<div class="text">
 				<h2 class="editable">1:1 Coaching</h2>
 				<p class="editable">Making news friends in the adult world is hard. Frisco is the perfect filter matching you the most interesting people in your area.</p>
@@ -76,7 +78,7 @@ bottom_image: https://unsplash.it/2000/1322?a=.png
 	</section>
 
 	<section class="container info">
-		<div class="testimonial grid-spaceBetween">
+		<div class="testimonial grid-spaceAround">
 			<div class="col-4">
 				<p>
 					Testimonial goes here. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
@@ -113,15 +115,19 @@ bottom_image: https://unsplash.it/2000/1322?a=.png
 	</section>
 
 	<section class="grid">
-		<div class="col-6" style="background-image: url(http://placehold.it/1000x1000)">
+		<div class="col-6 .grid-middle thoughts" style="background-image: url(http://placehold.it/1000x1000)">
+			<div class="col">
 			<h4>Follow REALM</h4>
 			<div class="social">
 				Twitter
 			</div>
+			</div>
 		</div>
-		<div class="col-6" style="background-image: url(http://placehold.it/1000x1000)">
-			<h4>Blog Link</h4>
-			<div class="cta button alt"><a href="#">Read More</a></div>
+		<div class="col-6 .grid-middle" style="background-image: url(http://placehold.it/1000x1000)">
+			<div class="col">
+				<h4>Blog Link</h4>
+				<div class="cta button alt"><a href="#">Read More</a></div>
+				</div>
 		</div>
 	</section>
 </div>

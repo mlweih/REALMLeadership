@@ -9,6 +9,24 @@
 	margin: auto;
 }
 
+.thoughts{
+	display: flex;
+}
+
+.minihero {
+	display: flex;
+	align-items: center;
+	color: #ffffff;
+	text-align: center;
+	height: 30vh;
+	min-height: 220px;
+	background-color: #333;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+	margin-bottom: 2em;
+}
+
 .hero {
 	color: #ffffff;
 	text-align: center;
@@ -52,17 +70,6 @@
 		position: absolute;
 		right: 0;
 	}
-}
-
-.minihero {
-	color: #ffffff;
-	text-align: center;
-	height: 30vh;
-	min-height: 220px;
-	background-color: #333;
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-position: center center;
 }
 
 .image {
