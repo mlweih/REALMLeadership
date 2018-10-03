@@ -223,3 +223,19 @@ blockquote:before {
 .cms-editor-active .editor-link {
 	display: block;
 }
+
+.three-col {
+       -moz-column-count: 3;
+       -moz-column-gap: 20px;
+       -webkit-column-count: 3;
+       -webkit-column-gap: 20px;
+			 text-align: left;
+}
+
+.two-col {
+       -moz-column-count: 2;
+       -moz-column-gap: 20px;
+       -webkit-column-count: 2;
+       -webkit-column-gap: 20px;
+			 text-align: left;
+}

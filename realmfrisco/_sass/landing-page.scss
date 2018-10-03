@@ -45,6 +45,33 @@
 	margin-bottom: 2em;
 }
 
+.lighthero {
+	color: #333333;
+	text-align: center;
+	height: 40vh;
+	min-height: 220px;
+	background-color: #ffffff;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+
+	.inner-hero {
+		display: flex;
+		align-items: center;
+		height: 100%;
+	}
+
+	.hero-text-container {
+		width: 750px;
+		text-align: center;
+
+		h1, h2, p, .button {
+			text-shadow: 1px 1px 1px rgba(0,0,0,.8);
+		}
+	}
+
+}
+
 .hero {
 	color: #ffffff;
 	text-align: center;
@@ -122,4 +149,43 @@
 
 .identifier{
 	text-align: right;
+}
+
+.quote {
+	color: #ffffff;
+	background-color: #333333;
+	/*text-align: center;*/
+	/*height: 20vh;*/
+	min-height: 250px;
+	margin-bottom: 50px;
+
+	h3{
+		font-family: 'Lato';
+		font-style: strong;
+	}
+}
+
+.inner-quote {
+	display: flex;
+	align-items: center;
+	height: 50%;
+}
+
+.quote-text-container {
+	width: 750px;
+	text-align: left;
+	margin-top: 100px;
+	margin-bottom: 50px;
+
+	h1, h2, p, .button {
+		text-shadow: 1px 1px 1px rgba(0,0,0,.8);
+	}
+}
+
+.boards{
+	text-align: center;
+}
+
+.Whois{
+	background-color: #acacac;
 }
