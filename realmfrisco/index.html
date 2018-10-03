@@ -83,13 +83,19 @@ bottom_image: https://unsplash.it/2000/1322?a=.png
 				<p>
 					Testimonial goes here. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
 				</p>
-				<img class="profilepic" src="http://placehold.it/150x150" />
+				<div class="identifier">
+					<h4>First Last Name</h4>
+					<h5>Position</h5>
+				</div>
 			</div>
 			<div class="col-4">
 				<p>
 					Testimonial goes here. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
 				</p>
-				<img class="profilepic" src="{{ site.baseurl }}/images/beautiful-brunette-cute-774909square.jpg" />
+				<div class="identifier">
+					<h4>First Last Name</h4>
+					<h5>Position</h5>
+				</div>
 			</div>
 		</div>
 	</section>
@@ -114,17 +120,17 @@ bottom_image: https://unsplash.it/2000/1322?a=.png
 		</div>
 	</section>
 
-	<section class="grid">
-		<div class="col-6 .grid-middle thoughts" style="background-image: url(http://placehold.it/1000x1000)">
-			<div class="col">
+	<section class="thoughts">
+		<div class="social-follow" style="background-image: url({% include relative-src.html src=page.bottom_image %})">
+			<div class="">
 			<h4>Follow REALM</h4>
 			<div class="social">
-				Twitter
+				Twitter Facebook LinkedIN
 			</div>
 			</div>
 		</div>
-		<div class="col-6 .grid-middle" style="background-image: url(http://placehold.it/1000x1000)">
-			<div class="col">
+		<div class="small-cta" style="background-image: url({% include relative-src.html src=page.bottom_image %})">
+			<div class="">
 				<h4>Blog Link</h4>
 				<div class="cta button alt"><a href="#">Read More</a></div>
 				</div>
