@@ -1,11 +1,6 @@
 ---
 title: Contact
-description: Send us a message to find out more!
-map:
-  latitude: -45.8787605
-  longitude: 170.5027976
-  address: "1 George Street, Dunedin, New Zealand"
-  zoom: 13
+description: Reach out to Becky
 image: https://source.unsplash.com/WNAO036c6FM/2000x1322?a=.png
 ---
 
@@ -19,7 +14,113 @@ image: https://source.unsplash.com/WNAO036c6FM/2000x1322?a=.png
 </section>
 
 <section class="pad">
-	<div class="text-container contact-box">
+  <!-- Contact -->
+  <section class="inner-hero mission">
+		<div class="text">
+			<h2>Contact Becky</h2>
+			<p>
+				Description of why to reach out to her.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+			</p>
+		</div>
+		<div class="bottomborder">
+      <div class="grid contact-details">
+        <div class="col-6">
+        <h3>Phone</h3>
+        <p>
+          919 270 8468
+        </p>
+        </div>
+        <div class="col-6">
+        <h3>Email</h3>
+  			<p class="editable"><a href="mailto:becky@reamleadership.com">becky@realmleadership.com</a></p>
+        </div>
+  		</div>
+		</div>
+	</section>
+
+	<!-- Upcoming Events -->
+		<section class="container events">
+			<h2>Upcoming Events</h2>
+			<div class="bottomborder">
+				<h3>Event Name</h3>
+				<h5>Event Date</h5>
+				<p>
+					Text about the event Becky is attending.   Text about the event Becky is attending.   Text about the event Becky is attending.   Text about the event Becky is attending.
+				</p>
+			</div>
+
+			<div class="bottomborder">
+				<h3>Event Name</h3>
+				<h5>Event Date</h5>
+				<p>
+					Text about the event Becky is attending.   Text about the event Becky is attending.   Text about the event Becky is attending.   Text about the event Becky is attending.
+				</p>
+			</div>
+
+			<div class="">
+				<h3>Event Name</h3>
+				<h5>Event Date</h5>
+				<p>
+					Text about the event Becky is attending.   Text about the event Becky is attending.   Text about the event Becky is attending.   Text about the event Becky is attending.
+				</p>
+			</div>
+		</section>
+
+  <!-- Courses Becky Offers-->
+	<!-- <section class="skinnyhero">
+		<div class="inner-hero text-container">
+			<div class="hero-text-container">
+				<h2 class="editable">Interested in REALM Courses?</h2>
+				<div class="cta button alt"><a href="#">Look at them Here</a></div>
+			</div>
+		</div>
+	</section>-->
+
+  <div class="container">
+    <div class="minihero">
+      <div class="text-container">
+        <h3>See the REALM Courses to work with Becky</h3>
+        <div class="cta button"><a href="#">Read More</a></div>
+      </div>
+    </div>
+  </div>
+
+	<!-- Social Media Contact -->
+	<section class="container boards">
+		<div class="grid">
+			<h2 class="col-12">Social Media</h2>
+			<div class="col-4">
+				<div class="image">
+					<img class="editable" src="http://placehold.it/70x70" alt="Screenshot" />
+				</div>
+				<h4>Twitter</h4>
+				<p>
+					Nice but short description of the kind of content Becky shares on this channel.
+				</p>
+			</div>
+			<div class="col-4">
+				<div class="image">
+					<img class="editable" src="http://placehold.it/70x70" alt="Screenshot" />
+				</div>
+				<h4>LinkedIn</h4>
+				<p>
+					Nice but short description of the kind of content Becky shares on this channel.
+				</p>
+			</div>
+			<div class="col-4">
+				<div class="image">
+					<img class="editable" src="http://placehold.it/70x70" alt="Screenshot" />
+				</div>
+				<h4>Instagram</h4>
+				<p>
+					Nice but short description of the kind of content Becky shares on this channel.
+				</p>
+			</div>
+		</div>
+	</section>
+
+
+	<!-- <div class="text-container contact-box">
 		<form action="{{ site.baseurl }}/contact-success/" method="post" class="contact-form">
 			<input type="hidden" name="_to" value="support@cloudcannon.com">
 			<input type="text" name="_gotcha" style="display: none;">
@@ -36,45 +137,18 @@ image: https://source.unsplash.com/WNAO036c6FM/2000x1322?a=.png
 			<input type="submit" value="Send Message">
 		</form>
 
-		<div class="contact-details">
-			<h3>Address</h3>
-			<address><a target="_blank" href="https://www.google.com/maps/place/{{ page.map.address | url_encode }}">{{ page.map.address | replace: ", ", ", <br>" }}</a></address>
+	</div>-->
+</section>
 
-			<h3>Email</h3>
-			<p class="editable"><a href="mailto:support@example.com">support@example.com</a></p>
+<!-- NEWSLETTER SIGNUP -->
+<section class="skinnyhero">
+	<div class="inner-hero text-container">
+		<div class="hero-text-container">
+			<h2>Sign up for the Newsletter</h2>
+			<p>
+		Form Box goes Here
+			</p>
+			<div class="cta button"><a href="#">Submit Email</a></div>
 		</div>
 	</div>
 </section>
-
-<div class="map" id="map"></div>
-
-<script>
-	window.mapData = {{ page.map | jsonify }};
-
-	function initMap() {
-		var myOptions = {
-			scrollwheel: false,
-			draggable: false,
-			panControl: false,
-			disableDefaultUI: true,
-			styles: [{"featureType":"landscape.man_made","elementType":"geometry","stylers":[{"color":"#f7f1df"}]},{"featureType":"landscape.natural","elementType":"geometry","stylers":[{"color":"#d0e3b4"}]},{"featureType":"landscape.natural.terrain","elementType":"geometry","stylers":[{"visibility":"off"}]},{"featureType":"poi","elementType":"labels","stylers":[{"visibility":"off"}]},{"featureType":"poi.business","elementType":"all","stylers":[{"visibility":"off"}]},{"featureType":"poi.medical","elementType":"geometry","stylers":[{"color":"#fbd3da"}]},{"featureType":"poi.park","elementType":"geometry","stylers":[{"color":"#bde6ab"}]},{"featureType":"road","elementType":"geometry.stroke","stylers":[{"visibility":"off"}]},{"featureType":"road","elementType":"labels","stylers":[{"visibility":"off"}]},{"featureType":"road.highway","elementType":"geometry.fill","stylers":[{"color":"#ffe15f"}]},{"featureType":"road.highway","elementType":"geometry.stroke","stylers":[{"color":"#efd151"}]},{"featureType":"road.arterial","elementType":"geometry.fill","stylers":[{"color":"#ffffff"}]},{"featureType":"road.local","elementType":"geometry.fill","stylers":[{"color":"black"}]},{"featureType":"transit.station.airport","elementType":"geometry.fill","stylers":[{"color":"#cfb2db"}]},{"featureType":"water","elementType":"geometry","stylers":[{"color":"#a2daf2"}]}],
-			zoom: window.mapData.zoom,
-			maxZoom: window.mapData.zoom,
-			minZoom: window.mapData.zoom,
-			center: new google.maps.LatLng(window.mapData.latitude, window.mapData.longitude),
-			mapTypeId: google.maps.MapTypeId.ROADMAP
-		};
-
-		var map = new google.maps.Map(document.getElementById('map'), myOptions);
-
-		var marker = new google.maps.Marker({
-			map: map,
-			position: new google.maps.LatLng(window.mapData.latitude, window.mapData.longitude)
-		});
-
-		google.maps.event.addDomListener(window, 'resize', function() {
-			map.setCenter(myOptions.center);
-		});
-	}
-</script>
-<script async defer src="https://maps.googleapis.com/maps/api/js?key={{ site.google_maps_javascript_api_key }}&amp;callback=initMap"></script>

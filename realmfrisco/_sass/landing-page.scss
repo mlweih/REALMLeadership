@@ -72,6 +72,7 @@
 
 }
 
+/* START HERO CONTENT */
 .hero {
 	color: #ffffff;
 	text-align: center;
@@ -116,6 +117,8 @@
 		right: 0;
 	}
 }
+
+/* END HERO CONTENT */
 
 .image {
 	text-align: center;
@@ -188,4 +191,10 @@
 
 .Whois{
 	background-color: #acacac;
+}
+
+.testimonial{
+	margin: auto;
+	padding-bottom: 1em;
+	max-width: 800px;
 }

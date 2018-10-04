@@ -26,3 +26,33 @@
 		margin-top: 60px;
 	}
 }
+
+.events{
+	max-width: 950px;
+	padding-bottom: 2em;
+}
+
+.skinnyhero {
+	color: #ffffff;
+	height: 60vh;
+	min-height: 220px;
+	background-color: #333;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+
+	.inner-hero {
+		display: flex;
+		align-items: center;
+		height: 100%;
+	}
+
+	.hero-text-container {
+		width: 750px;
+		text-align: left;
+
+		h1, h2, p, .button {
+			text-shadow: 1px 1px 1px rgba(0,0,0,.8);
+		}
+	}
+}
