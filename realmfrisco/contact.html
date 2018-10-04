@@ -145,10 +145,18 @@ image: https://source.unsplash.com/WNAO036c6FM/2000x1322?a=.png
 	<div class="inner-hero text-container">
 		<div class="hero-text-container">
 			<h2>Sign up for the Newsletter</h2>
-			<p>
-		Form Box goes Here
-			</p>
-			<div class="cta button"><a href="#">Submit Email</a></div>
+			<form action="{{ site.baseurl }}/contact-success/" method="post" class="contact-form">
+				<input type="hidden" name="_to" value="becky@realmleadership.com">
+				<input type="text" name="_gotcha" style="display: none;">
+
+				<label for="name">Name</label>
+				<input type="text" name="name" id="name" placeholder="Enter your name...">
+
+				<label for="email">Email Address</label>
+				<input type="email" name="email" id="email" placeholder="Enter your email..." required>
+
+				<input type="submit" value="Sign Up">
+			</form>
 		</div>
 	</div>
 </section>
