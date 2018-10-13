@@ -5,7 +5,7 @@
 	padding-top: 4em;
 	padding-bottom: 4em;
 	background-color: #ffffff;
-	max-width: 1050px;
+	max-width: 65em;
 	margin: auto;
 }
 
@@ -187,6 +187,14 @@
 
 .boards{
 	text-align: center;
+	margin: auto;
+	max-width: 65em;
+	padding-top: 4em;
+	padding-bottom: 4em;
+
+	p{
+		font-size: 1em;
+	}
 }
 
 .Whois{
@@ -196,5 +204,5 @@
 .testimonial{
 	margin: auto;
 	padding-bottom: 1em;
-	max-width: 800px;
+	max-width: 50em;
 }
