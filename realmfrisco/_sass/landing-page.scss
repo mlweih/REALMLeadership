@@ -168,6 +168,28 @@
 	}
 }
 
+.offering {
+	color: #ffffff;
+	min-height: 250px;
+
+	h3{
+		font-family: 'Lato';
+		font-style: strong;
+	}
+}
+
+.workshop {
+		background-color: #cccccc;
+}
+
+.company {
+		background-color: #555555;
+}
+
+.groupcoach {
+		background-color: #222222;
+}
+
 .inner-quote {
 	display: flex;
 	align-items: center;
